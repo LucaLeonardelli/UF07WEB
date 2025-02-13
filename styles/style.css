@@ -1,9 +1,63 @@
-h1{
-    color: red;
-    font-size: 24px;
+table {
+    margin: auto;
+    border-collapse: collapse;
 }
 
-h2{
-    color: #ff036F;
+table, th, td {
+    border: 1px solid rgb(221, 218, 218);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.card {
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card-subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
+.card-waiting {
     display: flex;
+    gap: 5px;
+}
+.card-waiting div {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.grey { background-color: grey; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.orange { background-color: orange; }
+.red { background-color: red; }
+
+div.scritta {
+    margin-bottom: 10px;
+    font-size: 15px;
 }
